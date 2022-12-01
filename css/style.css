@@ -1,0 +1,307 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    font-family: "Oswald", sans-serif;
+    background:rgb(79, 87, 197)
+
+
+
+}
+
+.container{
+    max-width: 600px;
+    margin: auto;
+    font-size: 18px;
+    padding: 20px;
+    background: #2a1574
+
+    ;
+    
+ 
+}
+
+.container p{
+    margin-bottom: 10px;
+}
+
+.card-text-p{
+    background: #84b5e4;
+    color: #e71d16;
+}
+
+header{
+    height: 60px;
+    background: #2a1574;
+    display: flex;
+    padding: 0 20px;
+}
+.menu-toggle{
+    display: none;
+    margin-left: auto;
+    color: rgb(224, 110, 110);
+    line-height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.jumbotron{
+    background: #114dad;
+}
+.jumbotron img{
+    max-width: 50px;
+}
+
+.jumbotron p{
+    color: #cdccf0;
+}
+
+.logo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 60pxs;
+    text-transform: uppercase;
+    font-family: "press start 2P", cursive;
+}
+
+.logo img{
+    margin: 1 auto;
+    max-width: 300px;
+    height: auto;
+    width: 30%;
+    margin-bottom: 4px;
+    float: center;
+    display: flex;
+    padding: 20px 0;
+}
+#menu{
+    margin-left: auto;
+
+}
+#menu ul li{
+    display: inline-block;
+
+}
+#menu ul li a{
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    line-height: 60px;
+    padding: 0 8px;
+    text-transform: uppercase;
+    transition: cubic-bezier(1, 0, 0, 1);
+
+ }
+
+#menu ul li a:hover{
+    background: #3d3738;
+
+}
+
+.show{
+    height: 305px !important;
+}
+
+
+
+@media screen and (max-width:700px){
+    .menu-toggle{
+        display: block;
+    }
+    #menu{
+        background: #727fca;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: 0;
+        border: 1px solid #fff;
+        overflow: hidden;
+        transition: .3s ease-out;
+    }
+    #menu ul li{
+        display: block;
+        text-align: center;
+
+    }
+    #menu ul li a{
+        color: white;
+        width: 100%;
+        font-size: 20px;
+        border-bottom: 1px solid #fff;
+
+
+    }
+    #menu ul li a:hover{
+        background: #92ccbd;
+    }
+    .container{
+        padding: 10px;
+    }
+}
+
+
+
+ul{
+    list-style: none;
+
+}
+.icon-wrap{
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    background-color: #42c3f7;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 3%;
+
+}
+
+.icon-wrap i{
+    text-align: center;
+    color: #fff;
+    font-size: 45%;
+
+}
+.left-col{
+    float: left;
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    padding: 1%;
+
+}
+
+a{
+    color: #c4c72d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #7760dd;
+
+}
+img{
+    
+    margin: 1 auto;
+    max-width: 1000px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 4px;
+    float: center;
+    display: flex;
+    padding: 20px 0;
+}
+.icon-text{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.icon-text-icon{
+    float: right;
+    width: 20%;
+    padding: 4%;
+
+}
+.icon-text-text{
+    float: left;
+    width: 25px;
+    padding: 4% 4% 2% 0;
+}
+#wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#banner-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 3% 0;
+}
+
+
+.icon-text{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.icon-text-icon{
+    float: right;
+    width: 20%;
+    padding: 4%;
+
+}
+.icon-text-text{
+    float: left;
+    width: 60%;
+    padding: 4% 4% 2% 0;
+}
+
+.footer-nav{
+    text-align: right;
+    background-color: #2a1574;
+
+}
+
+.nav li:hoover > ul{
+    display: block;
+}
+
+
+
+.footer-nav{
+    text-align: right;
+
+}
+
+#menu ul li a:hover{
+    background: #8684e9;
+
+}
+
+
+.footer-nav a:hover{
+
+    color: #2825db;
+
+}
+
+.nav li:hoover > ul{
+    display: block;
+}
+
+
+
+
+.btn-btn-primary{
+    color: #524c56;
+}
+
+p{
+    color: #a6d3e7;
+}
+
+i{
+    color: #94d2dd;
+}
+h1{
+    color: #ebcdd2;
+}
+h2{
+    font-size: 175%;
+    line-height: 155%;
+    font-weight: 500;
+    color: #2a7c86;
+
+}  
+h3{
+        color: #273f63;
+}
